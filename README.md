@@ -25,8 +25,8 @@ cascadeIterator takes an iterator function and returns a function that can take 
 Use
 ---
 ```javascript
-var reduce = require('./main.js').cascadeReduce;
-var iterator = require('./main.js').cascadeIterator;
+var reduce = require('cascade-reduce').cascadeReduce;
+var iterator = require('cascade-reduce').cascadeIterator;
 
 var totalArray = reduce(function(acc, item){
 	return (acc + item);
