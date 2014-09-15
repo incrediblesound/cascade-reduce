@@ -1,8 +1,12 @@
 {
   "name": "cascade-reduce",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Composable iterators for reduce",
   "main": "main.js",
+  "repository" : {
+        "type": "git",
+        "url": "https://github.com/incrediblesound/cascade-reduce"
+    },
   "keywords": [
     "function",
     "composition",
