@@ -1,6 +1,6 @@
 {
   "name": "cascade-reduce",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Composable iterators for reduce",
   "main": "main.js",
   "repository" : {

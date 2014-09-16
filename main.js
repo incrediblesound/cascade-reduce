@@ -25,7 +25,6 @@ exports.cascadeReduce = function(iterator){
 
 exports.cascadeIterator = function(iterator){
   return function(child){
-    debugger;
     if(typeof child === 'function'){
       return function(element){
         return child(iterator(element))
