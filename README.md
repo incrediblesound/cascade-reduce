@@ -1,7 +1,7 @@
 Cascade Reduce
 ==============
 
-<strong>0.0.4 update: </strong> In this update I add a new function that allows you to chain iterators just by adding them as extra arguments, you no longer need to invoke the iterators one inside the other. The updated function also does not require you to use a special function to create iterators. Here is a use example for 0.0.4:
+<strong>0.0.4 update: </strong> This update adds a new function that allows you to chain iterators just by adding them as extra arguments. You no longer need to invoke the iterators one inside the other. The updated function also does not require you to use a special function to create iterators. Here is a use example for 0.0.4:
 
 ```javascript
 // the new method is called 'cascadeNoNest'
